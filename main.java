@@ -4,18 +4,18 @@ public class main {
 public static void main(String[] args) {
     Scanner J = new Scanner(System.in);
 
-    System.out.print("Enter name: ");
+    System.out.print("Enter Name: ");
     String name = J.nextLine();
 
-    System.out.print("Enter address: ");
+    System.out.print("Enter Address: ");
     String address = J.nextLine();
 
-    System.out.print("Enter age: ");
+    System.out.print("Enter Age: ");
     Integer age = J.nextInt();
 
-    System.out.println(name);
-    System.out.println(address);
-    System.out.println(age);
+    System.out.println("Name: " + name);
+    System.out.println("Address: " + address);
+    System.out.println("Age: " + age);
 
 }
 }
